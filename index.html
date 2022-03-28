@@ -14,11 +14,24 @@
         <div class="imgcontainer">
             <img class="avatar" src="images/60111.jpg" alt="">
         </div>
+        <div>
+            <div class="container">
+                <label for="uname"><b>Username</b></label>
+                <input type="text" placeholder="Enter Username" name="uname" required><br>
+                <label for="psw"><b>Password</b></label>
+                <input type="text" placeholder="Enter Password" name="psw" required>
+                <div class="btn">
+                    <button id="login" type="submit">Login</button>
+                    <button id="signup" type="submit">Sign Up</button>
+                </div>
+                <label>
+                    <input type="checkbox" checked="checked" name="remember">Remember Me
+                </label>
+            </div>
+        </div>
         <div class="container">
-            <label for="uname"><b>Username</b></label>
-            <input type="text" placeholder="Enter Username" name="uname" required>
-            <label for="psw"><b>Password</b></label>
-            <input type="text" placeholder="Enter Password" name="psw" required>
+            <button type="button" class="cancelbtn">Cancle</button>
+            <span class="psw">Forgot <a href="#">Password?</a></span>
         </div>
     </form>
 
