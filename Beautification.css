@@ -1,0 +1,10 @@
+.middle a{
+    display: inline-block;
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+}
+.icon i{
+    font-size: 20px;
+   margin-left: 10px;
+}
